@@ -18,7 +18,7 @@ const projects = [
       "Application de gestion des tâches avec drag-and-drop et notifications en temps réel.",
     tags: ["React", "Express", "Prisma", "PostgreSQL", "Tailwind CSS"],
     image: "✅",
-    link: "https://plateforme-rcr-project-management.vercel.app/",
+    link: "https://www.rcr-project-management.org/",
     github:
       "https://github.com/codeline401/PLATEFORME-RCR-PROJECT-MANAGEMENT.git",
   },
@@ -76,6 +76,8 @@ export const Projects = () => {
                 <div className="flex gap-4">
                   <a
                     href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center gap-2 text-slate-300 hover:text-cyan-400 transition-colors"
                   >
                     <ExternalLink size={18} />
@@ -83,6 +85,8 @@ export const Projects = () => {
                   </a>
                   <a
                     href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center gap-2 text-slate-300 hover:text-cyan-400 transition-colors"
                   >
                     <Github size={18} />
