@@ -19,8 +19,7 @@ const projects = [
     tags: ["React", "Express", "Prisma", "PostgreSQL", "Tailwind CSS"],
     image: "✅",
     link: "https://www.rcr-project-management.org/",
-    github:
-      "https://github.com/codeline401/PLATEFORME-RCR-PROJECT-MANAGEMENT.git",
+    github: "https://github.com/codeline401/PLATEFORME-RCR-PROJECT-MANAGEMENT",
   },
   {
     id: 3,
